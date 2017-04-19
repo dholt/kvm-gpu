@@ -1,7 +1,7 @@
 
 ## Instructions for GPU passthrough in KVM on RHEL/CentOS 7
 
-Tested OS version: `CentOS Linux release 7.2.1511 (Core)`
+Tested OS version: `CentOS Linux release 7.3.1611 (Core)`
 
 Enable BIOS settings: Intel VT-d
 
