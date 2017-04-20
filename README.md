@@ -88,17 +88,6 @@ To stop VM: `virsh shutdown centos6`
 
 To remove VM: `virsh undefine centos6`
 
-Misc:
-
-Install X for virt-manager:
-
-```
-sudo yum install "@X Window System" xorg-x11-xauth xorg-x11-fonts-* xorg-x11-utils -y
-```
-
-```
-echo -e "options vfio-pci ids=10de:102d" | sudo tee /etc/modprobe.d/vfio.conf
-```
 ---
 
 References:
