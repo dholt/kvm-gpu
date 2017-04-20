@@ -65,7 +65,7 @@ Create VM:
 > Hit `Ctrl-]` to exit virt-install console
 
 ```
-virt-install \
+sudo virt-install \
 --name centos6 \
 --ram 24576 \
 --disk path=./centos6.qcow2,size=8 \
