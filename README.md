@@ -76,7 +76,7 @@ sudo virt-install \
 --graphics none \
 --console pty,target_type=serial \
 --location 'http://mirror.centos.org/centos/6/os/x86_64/' \
---extra-args 'console=ttyS0,115200n8 serial'
+--extra-args 'console=ttyS0,115200n8 serial' \
 --hostdev 04:00.0
 ```
 
